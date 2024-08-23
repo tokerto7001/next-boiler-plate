@@ -4,6 +4,38 @@
 
 @layer base {
   :root {
+
+    
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
     --color-primary-main: #7dd3fc;
     --color-primary-hovered: #bae6fd;
     --color-primary-disabled: #38bdf8;
@@ -27,7 +59,65 @@
     --color-yellow-hovered: #fde047;
     --color-yellow-disabled: #eab308;
 
-    
+    --color-switch-background: #818182;
+    --color-neutral: #fafafa;
     /* ... */
   }
+}
+
+.dark {
+
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+
+  --card: 222.2 84% 4.9%;
+  --card-foreground: 210 40% 98%;
+
+  --popover: 222.2 84% 4.9%;
+  --popover-foreground: 210 40% 98%;
+
+  --primary: 210 40% 98%;
+  --primary-foreground: 222.2 47.4% 11.2%;
+
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 212.7 26.8% 83.9%;
+  
+  --color-primary-main: #0ea5e9;
+  --color-primary-hovered: #38bdf8;
+  --color-primary-disabled: #0284c7;
+  --color-secondary-main: #10b981;
+  --color-secondary-hovered: #34d399;
+  --color-secondary-disabled: #059669;
+  --color-tertiary-main: #f59e0b;
+  --color-tertiary-hovered: #fbbf24;
+  --color-tertiary-disabled: #d97706;
+
+  --color-red-main: #b91c1c;
+  --color-red-hovered: #dc2626;
+  --color-red-disabled: #991b1b;
+  --color-green-main: #15803d;
+  --color-green-hovered: #16a34a;
+  --color-green-disabled: #166534;
+  --color-blue-main: #1d4ed8;
+  --color-blue-hovered: #2563eb;
+  --color-blue-disabled: #1e40af;
+  --color-yellow-main: #a16207;
+  --color-yellow-hovered: #ca8a04;
+  --color-yellow-disabled: #854d0e;
+
+  --color-switch-background: #FAFAFA;
+  --color-neutral: #171717;
 }
