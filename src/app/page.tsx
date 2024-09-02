@@ -1,21 +1,21 @@
+import About from "@/components/landing/about";
+import Hero from "@/components/landing/hero";
+import Trends from "@/components/landing/trends";
 
 export default function Home() {
   return (
-    <>
-    <button className="rounded-xl w-24 h-8 m-12 bg-primary-main hover:bg-primary-hovered text-white">Sa</button>
-    <button disabled className="rounded-xl w-24 h-8 m-12 bg-primary-disabled text-white">Sa</button>
-    <button className="rounded-xl w-24 h-8 m-12 bg-secondary-main hover:bg-secondary-hovered text-white">Sa</button>
-    <button disabled className="rounded-xl w-24 h-8 m-12 bg-secondary-disabled text-white">Sa</button>
-    <button className="rounded-xl w-24 h-8 m-12 bg-tertiary-main hover:bg-tertiary-hovered text-white">Sa</button>
-    <button disabled className="rounded-xl w-24 h-8 m-12 bg-tertiary-disabled text-white">Sa</button>
-    <button className="rounded-xl w-24 h-8 m-12 bg-red-main hover:bg-red-hovered text-white">Sa</button>
-    <button disabled className="rounded-xl w-24 h-8 m-12 bg-red-disabled text-white">Sa</button>
-    <button className="rounded-xl w-24 h-8 m-12 bg-green-main hover:bg-green-hovered text-white">Sa</button>
-    <button disabled className="rounded-xl w-24 h-8 m-12 bg-green-disabled text-white">Sa</button>
-    <button className="rounded-xl w-24 h-8 m-12 bg-blue-main hover:bg-blue-hovered text-white">Sa</button>
-    <button disabled className="rounded-xl w-24 h-8 m-12 bg-blue-disabled text-white">Sa</button>
-    <button className="rounded-xl w-24 h-8 m-12 bg-yellow-main hover:bg-yellow-hovered text-white">Sa</button>
-    <button disabled className="rounded-xl w-24 h-8 m-12 bg-yellow-disabled text-white">Sa</button>
-    </>
+    <div className="flex flex-col min-h-screen min-w-screen gap-y-20 md:gap-y-44 md:w-[75%] w-full items-center m-auto md:pt-28 pt-16 p-4 md:p-0">
+      {/*
+          - Main Headline & Supporting Headline (Hero) => Call to action button to navigate to Blogs
+          - About => More detailed explanation of the need of reading articles about IT
+          - Highlights
+          - 
+        */}
+      <Hero />
+
+      <About />
+
+      <Trends />
+    </div>
   );
 }
