@@ -18,7 +18,7 @@ interface ITrendCardProps {
 
 export default function TrendCard({ data }: ITrendCardProps) {
   return (
-    <Card className="flex flex-col gap-3 hover:bg-neutral p-6 rounded-xl hover:cursor-pointer md:w-1/3">
+    <Card data-testid='trendCard' className="flex flex-col gap-3 hover:bg-neutral p-6 rounded-xl hover:cursor-pointer md:w-1/3">
         <CardHeader className="h-1/5 flex items-center justify-center">
           <CardTitle className="text-center text-md  lg:text-xl md:text-md">{data.title}</CardTitle>
         </CardHeader>
