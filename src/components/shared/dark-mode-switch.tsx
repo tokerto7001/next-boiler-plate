@@ -23,7 +23,7 @@ export function ModeSwitch() {
 
   return (
     <>
-      <div className="flex justify-center items-center gap-2">
+      <div data-testid='switchContainer' className="flex justify-center items-center gap-2">
       <Sun className="h-[1.2rem] w-[1.2rem]" />
         <Switch checked={isDarkMode} onCheckedChange={onSwithChange} />
         <Moon className="h-[1.2rem] w-[1.2rem]" />
