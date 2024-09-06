@@ -1,4 +1,4 @@
-import Hero from '../../components/landing/hero';
+import Hero from '@/components/landing/hero';
 import { render } from '@testing-library/react';
 import { expect, test } from 'vitest';
 
